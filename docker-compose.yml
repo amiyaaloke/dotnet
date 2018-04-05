@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  payrollwebapp:
+    image: payrollwebapp
+    build:
+      context: .
+      dockerfile: PayrollWebApp\Dockerfile
